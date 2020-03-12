@@ -1,10 +1,86 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Start Page</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    </head>
-    <body>
-        <h1>Hello World!</h1>
-    </body>
-</html>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><META http-equiv="Content-Type" content="text/html; charset=utf-8"></head><body>ï»¿
+
+
+ <div>
+  <h1> Cliente</h1> 
+  <h2> Cadastro</h2><br>
+
+<form action="http://Script_do_Formulario.php" method="post" target="_blank" onsubmit="try {return window.confirm(&quot;Este formulário talvez não funcione corretamente devido a certas restrições de segurança.\nQuer continuar?&quot;);} catch (e) {return false;}">
+
+
+<fieldset>
+ <legend>Dados Pessoais</legend>
+  <div>
+    <input type="hidden" name="oculto" value="emJs">
+    <label>Nome: </label>
+    <input type="text" name="nome" alt="Digite o seu nome">
+    <label>Sobrenome: </label>
+    <input type="text" name="sobrenome">
+  </div>
+  <br><br>
+
+
+  <br>
+ 
+  
+
+  <fieldset>
+ 
+   <div>
+    <label>CPF:</label>
+    <input type="text" name="cpf" size="9" maxlength="9"> - <input type="text" name="cpf2" size="2" maxlength="2">
+   </div>
+</fieldset>
+
+<br>
+
+
+ 
+
+  
+
+<br>
+
+
+<fieldset>
+
+ <table cellspacing="10">
+  <tr>
+   <td>
+    <label>E-mail: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="email">
+   </td>
+  </tr>
+ 
+
+
+    <label>Senha: </label>
+   </td>
+   <td align="left">
+    <input type="password" name="senha">
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <label>Confirme a senha: </label>
+   </td>
+   <td align="left">
+    <input type="password" name="senhaconfirma">
+   </td>
+  </tr>
+ </table>
+</fieldset>
+<br>
+<input type="submit">
+<button>Incluir</button>
+<button>Alterar</button>
+<input type="reset" value="Limpar">
+</form>
+
+ </div>
+ 
+</body></html>
+
